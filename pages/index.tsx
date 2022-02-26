@@ -16,11 +16,11 @@ const Home: NextPage = () => {
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">Hello there</h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              I am web developer , passionate of web technology , with 2 years
+              of Experience in web development using html ,css ,react ,nodejs
+              express,
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-primary">Download </button>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { PaperClipIcon } from "@heroicons/react/solid";
+import Link from "next/link";
 
 export default function Example() {
   return (
@@ -104,12 +105,11 @@ export default function Example() {
                     <span className="ml-2 flex-1 w-0 truncate">resume.pdf</span>
                   </div>
                   <div className="ml-4 flex-shrink-0">
-                    <a
-                      href="/api/getPdf"
-                      className="font-medium text-indigo-600 hover:text-indigo-500"
-                    >
-                      Download
-                    </a>
+                    <Link href="/api/getPdf">
+                      <a className="font-medium text-indigo-600 hover:text-indigo-500">
+                        Download
+                      </a>
+                    </Link>
                   </div>
                 </li>
               </ul>

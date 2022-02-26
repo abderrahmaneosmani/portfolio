@@ -67,12 +67,6 @@ function Navbar() {
             </a>
             <h1>hhh</h1>
             <SocialIcon />
-
-            <Avatar
-              image="https://firebasestorage.googleapis.com/v0/b/e-commerce-8b99c.appspot.com/o/cv%2FDSC_0029.JPG?alt=media&token=36464c83-5574-43c5-97e3-b710fa7d1319"
-              status="online"
-              className="cursor-pointer my-2"
-            />
           </div>
         </div>
       )}
