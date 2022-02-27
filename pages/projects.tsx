@@ -20,6 +20,11 @@ function projects() {
               it use as timer to break work into interval .users can create
               task, enjoy with music
             </p>
+            <ul>
+              <h2 className="card-title">TECHNOLOGIES</h2>
+              <li>NextJs</li>
+              <li>Firebase</li>
+            </ul>
 
             <div className="justify-end card-actions">
               <Link href="https://pomdoro-nextjs.vercel.app">
@@ -42,8 +47,16 @@ function projects() {
           <div className="card-body">
             <h2 className="card-title">e-Commerce</h2>
             <p>Full Stack e-Commerce</p>
+            <ul>
+              <h2 className="card-title">TECHNOLOGIES</h2>
+              <li>NextJS</li>
+              <li>Nestjs</li>
+              <li>Firebase</li>
+              <li>MongoDb</li>
+            </ul>
+
             <div className="justify-end card-actions">
-              <Link href="https://ecommerce-front-end-ebon.vercel.app/">
+              <Link href="https://ecommerce-front-end-ei34e19er-abderrahmaneosmani.vercel.app">
                 <a className="btn btn-primary">Visit</a>
               </Link>
             </div>
@@ -54,14 +67,34 @@ function projects() {
         <div className="card lg:card-side bg-base-100 shadow-xl">
           <figure>
             <img
-              src="https://api.lorem.space/image/album?w=400&h=400"
+              height="600px"
+              width="600px"
+              src="https://firebasestorage.googleapis.com/v0/b/portfolio-9a3ea.appspot.com/o/images%2Fcrm%2Fcrm-capture-5.png?alt=media&token=f68e99ea-7368-431c-8336-6ebc46f18caa"
               alt="Album"
             />
           </figure>
 
           <div className="card-body">
             <h2 className="card-title">CRM</h2>
-            <p>Customer relationship management, </p>
+            <p>
+              the application manages the relation between customers,
+              commercials, pedagogical agent and training Institute
+            </p>
+            <ul>
+              <h2 className="card-title">TECHNOLOGIES</h2>
+
+              <li>nodejs express</li>
+              <li>
+                Angualar {"By "}
+                <span className="text-cyan-400 text-2xl	">
+                  {" "}
+                  faizakihel2@gmail.com
+                </span>{" "}
+                <li>Mysql</li>
+                <li>Google cloud</li>
+              </li>
+            </ul>
+
             <div className="justify-end card-actions">
               <Link href="crm">
                 <a className="btn btn-primary">Visit</a>
