@@ -56,7 +56,7 @@ function projects() {
             </ul>
 
             <div className="justify-end card-actions">
-              <Link href="https://ecommerce-front-end-ei34e19er-abderrahmaneosmani.vercel.app">
+              <Link href="https://ecommerce-front-end-six.vercel.app/">
                 <a className="btn btn-primary">Visit</a>
               </Link>
             </div>
