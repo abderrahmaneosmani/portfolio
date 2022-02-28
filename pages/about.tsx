@@ -45,29 +45,26 @@ export default function Example() {
           <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Education</dt>
             <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-              ullam nam eveniet dolore odit aut ducimus aliquam repellat?
-              Inventore ut fuga in deleniti ratione nam voluptate? Excepturi
-              magnam vero corporis.
+              Bachelors degree in Computer Science
             </dd>
           </div>
           <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Experience</dt>
             <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+              <h2>Web developer</h2>
+              <h3>IFD</h3>
+              <li> Building the backend of a CRM with Nodejs and Typescript</li>
+              <li> Managing databases with MySQL and Prisma</li>
+              <li>In charge of deployment to AWS cloud</li>
+              <li>System architecture maintenance</li>
+              <h3>Freelance</h3>
+
               <li>
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                ullam nam eveniet dolore odit aut ducimus aliquam repellat?
-                Inventore ut fuga in deleniti ratione nam voluptate? Excepturi
-                magnam vero corporis.
+                Developing responsive web applications and sites for clients
               </li>
-              <li>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                ullam nam eveniet dolore odit aut ducimus aliquam repellat?
-                Inventore ut fuga in deleniti ratione nam voluptate? Excepturi
-                magnam vero corporis.
-              </li>
+              <li> Creating restful APIs with Nodejs</li>
+              <li>Developing a MERN stack application</li>
             </dd>
           </div>
           <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -83,17 +80,14 @@ export default function Example() {
                       className="flex-shrink-0 h-5 w-5 text-gray-400"
                       aria-hidden="true"
                     />
-                    <span className="ml-2 flex-1 w-0 truncate">
-                      resume_back_end_developer.pdf
-                    </span>
+                    <span className="ml-2 flex-1 w-0 truncate">resume.pdf</span>
                   </div>
                   <div className="ml-4 flex-shrink-0">
-                    <a
-                      href="#"
-                      className="font-medium text-indigo-600 hover:text-indigo-500"
-                    >
-                      Download
-                    </a>
+                    <Link href="/api/getPdf">
+                      <a className="font-medium text-indigo-600 hover:text-indigo-500">
+                        Download
+                      </a>
+                    </Link>
                   </div>
                 </li>
                 <li className="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
@@ -102,10 +96,12 @@ export default function Example() {
                       className="flex-shrink-0 h-5 w-5 text-gray-400"
                       aria-hidden="true"
                     />
-                    <span className="ml-2 flex-1 w-0 truncate">resume.pdf</span>
+                    <span className="ml-2 flex-1 w-0 truncate">
+                      resume-fr.pdf
+                    </span>
                   </div>
                   <div className="ml-4 flex-shrink-0">
-                    <Link href="/api/getPdf">
+                    <Link href="/api/getPdf-fr">
                       <a className="font-medium text-indigo-600 hover:text-indigo-500">
                         Download
                       </a>

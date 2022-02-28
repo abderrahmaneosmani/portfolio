@@ -16,7 +16,15 @@ function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   return (
     <div className="flex items-center h-20 px-6 justify-between shadow-sm bg-white relative z-50">
-      <a className="flex-1 no-underline block h-8">OA</a>
+      <Link href="/">
+        <a className="flex-1 no-underline block h-8">
+          <img
+            className="block lg:hidden h-8 w-auto"
+            src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+            alt="Workflow"
+          />
+        </a>
+      </Link>
       <div className="flex-none hidden md:flex md:justify-center md:h-full">
         <Link href="/">
           <a className="block h-full flex items-center mx-4 px-2 border-b-2 border-transparent transition-colors duration-300 ease-in-out hover:text-blue-400">
@@ -65,7 +73,6 @@ function Navbar() {
             >
               Projects
             </a>
-            <h1>hhh</h1>
             <SocialIcon />
           </div>
         </div>
