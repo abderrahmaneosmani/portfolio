@@ -47,11 +47,18 @@ function Navbar() {
           <SocialIcon />
         </a>
       </div>
-      <FontAwesomeIcon
-        icon={mobileOpen ? faTimes : faBars}
+
+      <div
+        className="text-black text-3xl cursor-pointer md:hidden"
+        onClick={() => setMobileOpen(!mobileOpen)}
+      >
+        {mobileOpen ? "×" : "☰"}
+      </div>
+      {/* <FontAwesomeIcon
+        icon={}
         onClick={() => setMobileOpen(!mobileOpen)}
         className="text-black text-3xl cursor-pointer md:hidden"
-      />
+      /> */}
       {mobileOpen && (
         <div className="bg-white absolute top-full left-0 flex flex-col w-full py-8 shadow-sm lg:hidden">
           <div className="flex-1 flex flex-col items-center text-xl">
