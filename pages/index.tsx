@@ -17,9 +17,9 @@ const Home: NextPage = () => {
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">Hello there</h1>
             <p className="py-6">
-              Web developer fascinated by web technologies. Bringing two years
-              of experience in full-stack web development with tools such as
-              HTML, CSS, Nodejs , React, and Express.
+              I'm a web developer who's fascinated by web technologies. Bringing
+              two years of experience in full-stack web development with tools
+              such as HTML, CSS, Nodejs , React, and Express.
             </p>
             <Link href="/api/getPdf">
               <button className="btn btn-primary">Hire me </button>
