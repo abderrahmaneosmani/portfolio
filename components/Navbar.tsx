@@ -55,24 +55,21 @@ function Navbar() {
       {mobileOpen && (
         <div className="bg-white absolute top-full left-0 flex flex-col w-full py-8 shadow-sm lg:hidden">
           <div className="flex-1 flex flex-col items-center text-xl">
-            <a
-              href="#"
-              className="no-underline px-2 my-2 font-medium hover:text-blue-400"
-            >
-              Home
-            </a>
-            <a
-              href="#"
-              className="no-underline px-2 py-1 my-2 font-medium border-b-2 border-black hover:text-blue-400"
-            >
-              About
-            </a>
-            <a
-              href="#"
-              className="no-underline px-2 my-2 font-medium hover:text-blue-400"
-            >
-              Projects
-            </a>
+            <Link href="/">
+              <a className="no-underline px-2 my-2 font-medium hover:text-blue-400">
+                Home
+              </a>
+            </Link>
+            <Link href="/about">
+              <a className="no-underline px-2 py-1 my-2 font-medium border-b-2 border-black hover:text-blue-400">
+                About
+              </a>
+            </Link>
+            <Link href="/projects">
+              <a className="no-underline px-2 my-2 font-medium hover:text-blue-400">
+                Projects
+              </a>
+            </Link>
             <SocialIcon />
           </div>
         </div>
