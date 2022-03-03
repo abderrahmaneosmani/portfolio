@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
