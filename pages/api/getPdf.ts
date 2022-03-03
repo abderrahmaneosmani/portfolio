@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 
 const pipeline = promisify(stream.pipeline);
 const url =
-  "https://firebasestorage.googleapis.com/v0/b/portfolio-9a3ea.appspot.com/o/resume%2FOSMANI-Abderrahmane-en.pdf?alt=media&token=07d16705-5faa-4f53-9a01-3c52a7bbdb90";
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-9a3ea.appspot.com/o/resume%2FOSMANI%20Abderrahmane.pdf?alt=media&token=c3ec7629-9797-47b2-9559-bfdbe5faa67e";
 
 const handler = async (req: any, res: any) => {
   const response: any = await fetch(url);
